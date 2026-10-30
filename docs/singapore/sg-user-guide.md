@@ -450,12 +450,192 @@ This tab is used to check the contribution required.
 - This affects the types of contributions required and statutory reporting.
 - This is especially useful if you have different types of allowances such as Petrol, Handphone, or Meal Allowance based on different company entitlements.
 
+1. Navigate to **Payroll** > **Maintenance** > **Maintain Allowance**.
+
+    ![42](../../static/img/singapore/sg-user-guide/42.png)
+
+2. Click **New** to create an allowance.
+
+    ![43](../../static/img/singapore/sg-user-guide/43.png)
+
+3. Enter the allowance information and select the applicable contribution options.
+
+    ![44](../../static/img/singapore/sg-user-guide/44.png)
+
+    | Field Name     | Definition                                                                                                   |
+    | -------------- | ------------------------------------------------------------------------------------------------------------ |
+    | Code           | An Allowance Code (Max 20 Characters)                                                                        |
+    | Description    | A Full Description for Allowance (Max 160 Characters)                                                        |
+    | Rate           | Rate of allowance payable.                                                                                   |
+    | Active         | Uncheck if the selected Allowance code is unavailable                                                        |
+    | Set as Default | Click this button to set this Allowance Code as the default                                                  |
+    | CPF            | Contribute to Ordinary Wages of Central Provident Fund (CPF)                                                 |
+    | CPF (A)        | Contribute to Additional Wages of Central Provident Fund (CPF)                                               |
+    | SHG            | Contribution to Self Help Group of employee selected in Employee [Self-Help Group](#316-self-help-group) tab |
+    | SDL            | Contribute to Skill Development Levy of employee                                                             |
+    | IR8A           | Report to IR8A Form                                                                                          |
+    | OT             | Allow the amount to contribute to Overtime (OT)                                                              |
+
 ### 4.4 Maintain Deduction
+
+- Setting up Maintain Deduction helps you categorize deductions from employee pay.
+- Each deduction type has configurable contribution and statutory reporting options.
+- This is useful for deductions such as employee loan repayments or salary advances.
+
+1. Navigate to **Payroll** > **Maintenance** > **Maintain Deduction**.
+
+    ![45](../../static/img/singapore/sg-user-guide/45.png)
+
+2. Click **New** to create a deduction.
+
+    ![46](../../static/img/singapore/sg-user-guide/46.png)
+
+3. Enter the deduction information and select the applicable contribution options.
+
+    ![47](../../static/img/singapore/sg-user-guide/47.png)
+
+    | Field Name     | Definition                                                                                                   |
+    | -------------- | ------------------------------------------------------------------------------------------------------------ |
+    | Code           | A Deduction Code (Max 20 Characters)                                                                         |
+    | Description    | A Full Description for Deduction (Max 160 Characters)                                                        |
+    | Rate           | Rate of deduction.                                                                                           |
+    | Deduction Type | Type of deduction.                                                                                           |
+    | Active         | Uncheck if the selected Deduction code is unavailable                                                        |
+    | Set as Default | Click this button to set this Deduction Code as the default                                                  |
+    | CPF            | Contribute to Ordinary Wages of Central Provident Fund (CPF)                                                 |
+    | CPF (A)        | Contribute to Additional Wages of Central Provident Fund (CPF)                                               |
+    | SHG            | Contribution to Self Help Group of employee selected in Employee [Self-Help Group](#316-self-help-group) tab |
+    | SDL            | Contribute to Skill Development Levy of employee                                                             |
+    | IR8A           | Report to IR8A Form                                                                                          |
+    | OT             | Allow the amount to contribute to Overtime (OT)                                                              |
 
 ### 4.5 Maintain Overtime
 
+- Setting up Maintain Overtime helps you categorize the types of overtime offered by the company.
+- Overtime types support daily or hourly calculations with a specified rate.
+- The contribution and statutory reporting options can be configured for each overtime type.
+
+1. Navigate to **Payroll** > **Maintenance** > **Maintain Overtime**.
+
+    ![48](../../static/img/singapore/sg-user-guide/48.png)
+
+2. Click **New** to create an overtime type.
+
+    ![49](../../static/img/singapore/sg-user-guide/49.png)
+
+3. Enter the overtime information and select the applicable contribution options.
+
+    ![50](../../static/img/singapore/sg-user-guide/50.png)
+
+    | Field Name      | Definition                                                                                                   |
+    | --------------- | ------------------------------------------------------------------------------------------------------------ |
+    | Code            | An Overtime Code (Max 20 Characters)                                                                         |
+    | Description     | A Full Description for Overtime (Max 160 Characters)                                                         |
+    | Rate            | Overtime rate multiplier (e.g. 1.5 or 2.0).                                                                  |
+    | Unit Type       | Select None, Daily, or Hourly for the overtime calculation.                                                  |
+    | Pay Rate Script | Select a script for calculating the pay rate. Leave blank to use the default calculation.                    |
+    | Active          | Uncheck if the selected Overtime code is unavailable                                                         |
+    | Set as Default  | Click this button to set this Overtime Code as the default                                                   |
+    | CPF             | Contribute to Ordinary Wages of Central Provident Fund (CPF)                                                 |
+    | CPF (A)         | Contribute to Additional Wages of Central Provident Fund (CPF)                                               |
+    | SHG             | Contribution to Self Help Group of employee selected in Employee [Self-Help Group](#316-self-help-group) tab |
+    | SDL             | Contribute to Skill Development Levy of employee                                                             |
+    | IR8A            | Report to IR8A Form                                                                                          |
+
 ### 4.6 Maintain Claim
+
+- Setting up Maintain Claim helps you categorize the types of expenses employees can claim, such as travel or communication expenses.
+- Claim types support yearly and monthly limits, which may be left unlimited.
+- Each claim type supports a unit and rate, with an option to require an attachment.
+
+1. Navigate to **Payroll** > **Maintenance** > **Maintain Claim**.
+
+    ![51](../../static/img/singapore/sg-user-guide/51.png)
+
+2. Click **New** to create a claim.
+
+    ![52](../../static/img/singapore/sg-user-guide/52.png)
+
+3. Enter the claim information and set the applicable limits.
+
+    ![53](../../static/img/singapore/sg-user-guide/53.png)
+
+    | Field Name          | Definition                                                                           |
+    | ------------------- | ------------------------------------------------------------------------------------ |
+    | Code                | A Claim Code (Max 20 Characters)                                                     |
+    | Description         | A Full Description for Claim (Max 160 Characters)                                    |
+    | Yearly Limit        | Maximum claim amount per year. Click Set as Unlimited if there is no yearly limit.   |
+    | Monthly Limit       | Maximum claim amount per month. Click Set as Unlimited if there is no monthly limit. |
+    | UOM                 | Unit of measurement for the claim, such as KM.                                       |
+    | Rate                | Rate for the claim.                                                                  |
+    | Attachment Required | Check if an attachment is required for this claim type.                              |
+    | Active              | Uncheck if the selected Claim code is unavailable                                    |
+    | Set as Default      | Click this button to set this Claim Code as the default                              |
 
 ### 4.7 Maintain Commission
 
+- Setting up Maintain Commission helps you categorize the types of commission paid to employees.
+- Each commission type has a configurable rate.
+- The contribution and statutory reporting options can be configured for each commission type.
+
+1. Navigate to **Payroll** > **Maintenance** > **Maintain Commission**.
+
+    ![54](../../static/img/singapore/sg-user-guide/54.png)
+
+2. Click **New** to create a commission.
+
+    ![55](../../static/img/singapore/sg-user-guide/55.png)
+
+3. Enter the commission information and select the applicable contribution options.
+
+    ![56](../../static/img/singapore/sg-user-guide/56.png)
+
+    | Field Name     | Definition                                                                                                   |
+    | -------------- | ------------------------------------------------------------------------------------------------------------ |
+    | Code           | A Commission Code (Max 20 Characters)                                                                        |
+    | Description    | A Full Description for Commission (Max 160 Characters)                                                       |
+    | Rate           | Rate of commission payable.                                                                                  |
+    | Active         | Uncheck if the selected Commission code is unavailable                                                       |
+    | Set as Default | Click this button to set this Commission Code as the default                                                 |
+    | CPF            | Contribute to Ordinary Wages of Central Provident Fund (CPF)                                                 |
+    | CPF (A)        | Contribute to Additional Wages of Central Provident Fund (CPF)                                               |
+    | SHG            | Contribution to Self Help Group of employee selected in Employee [Self-Help Group](#316-self-help-group) tab |
+    | SDL            | Contribute to Skill Development Levy of employee                                                             |
+    | IR8A           | Report to IR8A Form                                                                                          |
+    | OT             | Allow the amount to contribute to Overtime (OT)                                                              |
+
 ### 4.8 Maintain Payment Method
+
+- Setting up Maintain Payment Method helps you categorize how employees are paid.
+- Payment methods support cash, cheque, and direct transfer, with the relevant bank details.
+- An optional rounding script controls net pay rounding.
+
+1. Navigate to **Payroll** > **Maintenance** > **Maintain Payment Method**.
+
+    ![57](../../static/img/singapore/sg-user-guide/57.png)
+
+2. Click **New** to create a payment method.
+
+    ![58](../../static/img/singapore/sg-user-guide/58.png)
+
+3. Enter the payment method information.
+
+    ![59](../../static/img/singapore/sg-user-guide/59.png)
+
+    | Field Name       | Definition                                                       |
+    | ---------------- | ---------------------------------------------------------------- |
+    | Code             | A Payment Method Code (Max 20 Characters)                        |
+    | Description      | A Full Description for Payment Method (Max 160 Characters)       |
+    | Bank             | Bank associated with the payment method.                         |
+    | Bank Account No. | Bank account number for the payment method.                      |
+    | Bank Charge      | Bank charge amount for the payment method.                       |
+    | Payment Type     | Select Cash, Cheque, or Direct Transfer.                         |
+    | Net Pay          | Select a rounding script for net pay, if applicable.             |
+    | Branch           | Bank branch.                                                     |
+    | Address          | Address of the bank branch.                                      |
+    | Contact Person   | Contact person for the payment method.                           |
+    | Ref              | Reference information for the payment method.                    |
+    | Phone            | Phone number for the payment method.                             |
+    | Fax              | Fax number for the payment method.                               |
+    | Active           | Uncheck if the selected Payment Method code is unavailable       |
+    | Set as Default   | Click this button to set this Payment Method Code as the default |
