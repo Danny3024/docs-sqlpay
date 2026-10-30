@@ -339,6 +339,8 @@ Used to create, manage, and distribute company-wide or employee-specific announc
 
 ## 4 Payroll
 
+To create monthly payroll, enter variable payments and deductions, and prepare payslips, follow the [Payroll Processing guide](./sg-payroll-processing.md).
+
 ### 4.1 Maintain Wages
 
 - Setting up Maintain Wages helps you categorize the type of wages an employee receives.
